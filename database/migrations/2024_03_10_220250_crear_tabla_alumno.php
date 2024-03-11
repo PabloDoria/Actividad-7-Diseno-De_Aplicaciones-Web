@@ -8,7 +8,7 @@ class CrearTablaAlumno extends Migration
 {
     public function up()
     {
-        Schema::create('alumn', function (Blueprint $table) {
+        Schema::create('alumno', function (Blueprint $table) {
             $table->id();
             $table->string('grado');
             $table->unsignedBigInteger('FK_IdGrupo')->nullable();
